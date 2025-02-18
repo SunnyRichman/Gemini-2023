@@ -29,6 +29,6 @@ jobs:
 
     - name: Compile Java
       run: |
-        cd master/HolidayTravelVehicles 
+        cd ../HolidayTravelVehicles 
         javac -d . *.java
       # Compile java file from directory
